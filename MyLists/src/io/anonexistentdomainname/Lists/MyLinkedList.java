@@ -256,7 +256,7 @@ public class MyLinkedList<E> implements MyList<E> {
 	}
 	
 	private void incSize() {
-		if(size <= Integer.MAX_VALUE) {
+		if(size < Integer.MAX_VALUE) {
 			size++;
 		}
 	}

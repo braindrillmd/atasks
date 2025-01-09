@@ -7,9 +7,9 @@ package io.anonexistentdomainname.Lists;
 public class MyArrayList<E> implements MyList<E> {
 	private final static int DEFAULT_CAPACITY = 10;
 	
-	int size;
-	int capacity = DEFAULT_CAPACITY;
-	Object[] array;
+	private int size;
+	private int capacity = DEFAULT_CAPACITY;
+	private Object[] array;
 	
 	@Override
 	public String toString() {
@@ -169,7 +169,7 @@ public class MyArrayList<E> implements MyList<E> {
 	}
 	
 	private void incSize() {
-		if(size <= Integer.MAX_VALUE) {
+		if(size < Integer.MAX_VALUE) {
 			size++;
 		}
 	}

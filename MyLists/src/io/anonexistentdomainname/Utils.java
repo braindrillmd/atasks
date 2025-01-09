@@ -45,7 +45,8 @@ public class Utils {
 		
 		//I'd like to check if elements' order is the same, so...
 		for(int i = 0; i < myList.size(); i++) {
-			if(myList.get(i) == null || !myList.get(i).equals(list.get(i))) {
+			if((myList.get(i) == null && list.get(i) != null ) || 
+					(myList.get(i) != null && !myList.get(i).equals(list.get(i)))) {
 				return false;
 			}
 		}
