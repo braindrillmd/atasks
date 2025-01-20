@@ -191,7 +191,7 @@ public class MyLinkedList<E> implements MyList<E> {
 		if(size == 1) {
 			return currentNode;
 		}
-		for(int i = 0; i < index; i = i++) {
+		for(int i = 0; i < index; i++) {
 			currentNode = currentNode.nextNode;
 		}
 		
