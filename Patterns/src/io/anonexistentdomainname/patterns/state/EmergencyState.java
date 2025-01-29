@@ -3,7 +3,7 @@ package io.anonexistentdomainname.patterns.state;
 //concrete state
 public class EmergencyState extends State {
 	
-	public EmergencyState(Spacecraft spacecraft) {
+	public EmergencyState(Spaceship spacecraft) {
 		super(spacecraft);
 		
 		System.out.println(">>>@" + this.getClass().getCanonicalName());

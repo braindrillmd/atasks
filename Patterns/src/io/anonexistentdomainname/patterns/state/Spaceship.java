@@ -1,7 +1,7 @@
 package io.anonexistentdomainname.patterns.state;
 
 //context
-public class Spacecraft {
+public class Spaceship {
 	public boolean isAuxillaryPowerEngaged() {
 		return auxillaryPowerEngaged;
 	}
@@ -42,7 +42,7 @@ public class Spacecraft {
 		this.primaryFusionEngineOnline = primaryFusionEngineOnline;
 	}
 	
-	public Spacecraft() {
+	public Spaceship() {
 		state = new IdleState(this);
 	}
 	

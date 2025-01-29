@@ -3,7 +3,7 @@ package io.anonexistentdomainname.patterns.state;
 //concrete state
 public class WarpDriveActiveState extends State {
 
-	public WarpDriveActiveState(Spacecraft spacecraft) {
+	public WarpDriveActiveState(Spaceship spacecraft) {
 		super(spacecraft);
 		
 		System.out.println(">>>@" + this.getClass().getCanonicalName());

@@ -3,7 +3,7 @@ package io.anonexistentdomainname.patterns.state;
 //concrete state
 public class IdleState extends State {
 
-	public IdleState(Spacecraft spacecraft) {
+	public IdleState(Spaceship spacecraft) {
 		super(spacecraft);
 		
 		System.out.println(">>>@" + this.getClass().getCanonicalName());

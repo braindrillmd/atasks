@@ -1,11 +1,11 @@
 package io.anonexistentdomainname.patterns;
 
-import io.anonexistentdomainname.patterns.state.Spacecraft;
+import io.anonexistentdomainname.patterns.state.Spaceship;
 
 public class StateDemo {
 
 	public static void main(String[] args) {
-		Spacecraft sc1 = new Spacecraft();
+		Spaceship sc1 = new Spaceship();
 		sc1.engageAuxillaryPowerSource(); //nope!
 		sc1.travelToCoordinates("x18388021/y430470327/z98504397"); //just a string
 		sc1.setPrimaryFusionEngineOnline(false); //let's sabotage the ship
@@ -15,7 +15,7 @@ public class StateDemo {
 		System.out.println();
 		
 		//let's make a new one
-		Spacecraft sc2 = new Spacecraft();
+		Spaceship sc2 = new Spaceship();
 		sc2.initWrpDrive();
 		sc2.travelToCoordinates("x012/y345/z678"); //nope
 		sc2.engageAuxillaryPowerSource(); //nope

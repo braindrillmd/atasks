@@ -3,7 +3,7 @@ package io.anonexistentdomainname.patterns.state;
 //concrete state
 public class InHyperSpaceState extends State {
 
-	public InHyperSpaceState(Spacecraft spacecraft) {
+	public InHyperSpaceState(Spaceship spacecraft) {
 		super(spacecraft);
 		
 		spacecraft.setInHyperSpace(true);
