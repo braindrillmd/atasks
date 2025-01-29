@@ -3,7 +3,7 @@ package io.anonexistentdomainname.patterns.bridge;
 //concrete implementation
 public class Spacecraft implements TransportationDevice {
 	//String for clarity
-	//imagine SpeceStation object being here and also it being vastly different from and Airport object
+	//imagine SpaceStation object being here and also it being vastly different from an Airport object
 	String departureSpaceStation; 
 	String arrivalSpaceStation;
 	Speed speed;
