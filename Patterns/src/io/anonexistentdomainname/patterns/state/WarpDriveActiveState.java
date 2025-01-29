@@ -1,5 +1,6 @@
 package io.anonexistentdomainname.patterns.state;
 
+//concrete state
 public class WarpDriveActiveState extends State {
 
 	public WarpDriveActiveState(Spacecraft spacecraft) {

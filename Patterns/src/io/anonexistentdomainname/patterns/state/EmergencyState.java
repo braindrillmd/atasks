@@ -1,5 +1,6 @@
 package io.anonexistentdomainname.patterns.state;
 
+//concrete state
 public class EmergencyState extends State {
 	
 	public EmergencyState(Spacecraft spacecraft) {

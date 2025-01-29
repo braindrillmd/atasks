@@ -1,5 +1,6 @@
 package io.anonexistentdomainname.patterns.state;
 
+//abstract state ("interface")
 public abstract class State {
 	protected Spacecraft spacecraft;
 	

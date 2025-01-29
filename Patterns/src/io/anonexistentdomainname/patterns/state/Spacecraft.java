@@ -1,5 +1,6 @@
 package io.anonexistentdomainname.patterns.state;
 
+//context
 public class Spacecraft {
 	public boolean isAuxillaryPowerEngaged() {
 		return auxillaryPowerEngaged;
